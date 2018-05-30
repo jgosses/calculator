@@ -68,6 +68,10 @@ keys.addEventListener('click', e => {
         secondValue
       );
     }
+
+    if (!displayedNum.includes('.')) {
+      display.textContent = displayedNum + '.';
+    }
   }
 });
 
