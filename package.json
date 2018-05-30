@@ -29,5 +29,8 @@
     "start": "webpack-dev-server --env development",
     "build": "webpack --env production",
     "test": "nyc ava"
+  },
+  "dependencies": {
+    "npm": "^6.1.0"
   }
 }
